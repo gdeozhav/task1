@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+}
+header {
+  width: 100%;
+  height: 30px;
+  border-bottom: black solid 2px;
+
+  display: flex;
+  align-items: center;
+}
+header li a {
+  text-decoration: none;
+  font-size: 10px;
+}
+header li {
+  list-style: none;
+  margin-right: 10px;
+  display: inline-block;
+}
+header ul {
+  padding-left: 20px;
+}
+.register {
+  width: 100%;
+  margin: 0 20px 0 20px;
+  padding: 20px 20px 0 20px;
+  border-bottom: #ddd solid 1px;
+  font-size: 12px;
+}
+h1 {
+  font-weight: 300;
+  line-height: 30px;
+}
+.register p {
+  font-size: 10px;
+  line-height: 30px;
+
+}
+.reg-form {
+  border-top: #ddd solid 1px;
+  border-bottom: #ddd solid 1px;
+  padding-top: 10px;
+}
+.reg-form input {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+.reg-form label {
+  display: block;
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: bold;
+}
+.s-button {
+  background-color: #87cefa;
+  border: none;
+  color: white;
+  width: 65px;
+  height: 20px;
+  margin: 10px 0 10px;
+  font-size: 10px;
+  border-radius: 3px;
+}
+
+.playlist {
+  width: 100vw;
+  padding: 10px 0 0 20px;
+}
+h2 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+.playlist ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+.playlist ul li {
+  color: rgb(61, 61, 182);
+  line-height: 30px;
+}
+h3 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+.stats {
+  padding-left: 20px;
+  margin-bottom: 40px;
+} 
+table {
+  border-collapse: collapse;
+  font-size: 10px;
+}
+th {
+  line-height: 20px;
+}
+th, td {
+  border: 1px solid;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #333;
+  position: relative;
+}
+.contact {
+  padding: 10px 0 0 20px;
+  width: 50%;
+  float: left;
+  height: 150px;
+}
+.tech-sup {
+  padding: 10px 20px 0 0;
+  width: 50%;
+  height: 150px;
+  float: right;
+  text-align: right;
+}
+footer h3, footer p, footer a{
+  color: white;
+  font-weight: 300;
+}
+footer p, footer a {
+  font-size: 10px;
+  line-height: 20px;
+}
+.footer-end {
+  width: 100%;
+  height: 30px;
+  border-top: white solid 2px;
+  padding: 5px 0 5px 20px;
+  position: absolute;
+  bottom: 0;
+}

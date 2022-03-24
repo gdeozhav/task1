@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ДЗ</title>
+    <link rel="stylesheet" href="style.css">
+<!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+<!--fonts-->
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="#">Мои плейлисты Youtube</a></li>
+        <li><a href="#">Мои конспекты</a></li>
+        <li><a href="#">To-do list</a></li>
+        <li><a href="#">Расписание</a></li>
+      </ul>
+    </header>
+    <!--registration section-->
+    <div class="register">
+      <h1>Регистрация</h1>
+      <p>Пожалуйста, заполните форму для создания аккаунта.</p>
+      <!--form-->
+      <form action="index.html" method="post">
+        <div class="reg-form">
+          <label for="mail">Почта</label>
+          <input id="mail" type="email" placeholder="Введите почту">
+          <label for="pass">Пароль</label>
+          <input id="pass" type="password" placeholder="Введите пароль">
+          <label for="pass2">Повторный пароль</label>
+          <input id="pass2" type="password" placeholder="Повторите пароль">
+        </div>
+        <input type="submit" class="s-button" value="Отправить">
+      </form>
+
+    </div>
+    <!--playlist-->
+    <div class="playlist">
+      <h2>Мои плейлисты YouTube</h2>
+      <ul>
+        <li>Мои любимые рецепты</li>
+        <li>Бессмысленные видео для просмотра во время еды</li>
+        <li>Курс по VUE</li>
+        <li>Нарезка лучших фрагментов из фильма "Брат" и "Брат 2"</li>
+        <li>Факультатив по моделированию физических процессов</li>
+      </ul>
+    </div>
+    <!--stats-->
+    <div class="stats">
+      <h3>Статистика по моим видео</h3>
+      <table>
+        <thead>
+          <th>Название плейлиста</th>
+          <th>Кол-во просмотров всех видео в этом плейлисте</th>
+          <th>Самое популярное видео в этом плейлисте</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Мои любимые рецепты</td>
+            <td>122</td>
+            <td>Греческий салат своими руками</td>
+          </tr>
+          <tr>
+            <td>Нарезка лучших ... "Брат 2"</td>
+            <td>170</td>
+            <td>"В чем сила, брат?"</td>
+          </tr>
+          <tr>
+            <td>Курс по VUE</td>
+            <td>1000000</td>
+            <td>Взламываем "Anonymous" за 5 минут</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer>
+      <div class="contact">
+        <h3>Контакты</h3>
+        <p>199034, Россия, Санкт-Петербург, Биржевая линия, д. 16, ауд. 538</p>
+        <p><a href="#">SpaceWorking.com</a></p>
+        <p>+7(999)105-52-68</p>
+      </div>
+      <div class="tech-sup">
+        <h3>Техническая поддержка сайта</h3>
+        <p><a href="#">SamSebeFrontender@Olimp.web.ru</a></p>
+      </div>
+      <div class="footer-end">
+        <p><a href="#">Политика SpaceWorking по обработке персональных данных</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
